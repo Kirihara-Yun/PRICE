@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# PRICE run artifacts
+PRICE/python/price/bench/data/
+PRICE/python/real_ai_optimization_analysis/results/
+PRICE/python/real_ai_optimization_analysis/raw_data/
