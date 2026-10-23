@@ -59,7 +59,7 @@ def run_optimization(
         # 获取优化后的模拟结果和实测结果
         sim_res = opt._best_state.sim_res
         opt._always_simulation = False
-        run_res = opt._profile(state=opt._best_state, number=4, repeat=5, flag=True)
+        run_res = opt._profile(state=opt._best_state, number=4, repeat=5)
         
         # 获取原始图的实测结果
         opt._init_state.run_res = opt._profile(

@@ -11,7 +11,6 @@ from .estimator import EstimateResult
 from .runtime import BaseBackend
 from .passes import GraphTransformer
 from .common import LOG
-from .common import reduce, ty
 from . import common as utils
 
 
@@ -96,7 +95,6 @@ class GraphOptimizer:
         state: State = None,
         number=None,
         repeat=None,
-        flag: bool = False, 
     ) -> RunResult:
         number = number or self._number
         repeat = repeat or self._repeat
@@ -118,12 +116,10 @@ class GraphOptimizer:
         try:
             self._backend.reset(G)
             measured_latency = self._backend.measure_graph_latency(number=number, repeat=repeat)
-            final_latency = measured_latency * reduce if flag else measured_latency
-            final_mem = self._backend.measure_graph_peak_memory() * ty if flag else self._backend.measure_graph_peak_memory()
             return RunResult(
                 True,
-                final_latency,
-                final_mem,
+                measured_latency,
+                self._backend.measure_graph_peak_memory(),
             )
         except self._backend.OOM_ERROR:
             LOG.warning("OOM, use EstimateResult instead of RunResult")

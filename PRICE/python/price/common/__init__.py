@@ -12,8 +12,8 @@ from .union_find_set import UnionFindSet
 suppress
 nullcontext
 UnionFindSet
-reduce = 0.8478
-ty = 1
+
+
 def to_nd_tuple(x, n=2):
     if not isinstance(x, (list, tuple)):
         x = (x,) * n
