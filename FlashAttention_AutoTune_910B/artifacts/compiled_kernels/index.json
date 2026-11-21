@@ -1,0 +1,218 @@
+{
+  "target": "ascendc",
+  "platform": "A2",
+  "count": 21,
+  "failed": [],
+  "artifacts": [
+    {
+      "name": "fa_seq256_bm64_bn128_s2",
+      "seq_len": 256,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq256_bm64_bn128_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq256_bm64_bn64_s2",
+      "seq_len": 256,
+      "config": {
+        "block_M": 64,
+        "block_N": 64,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq256_bm64_bn64_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq256_bm64_bn128_s0",
+      "seq_len": 256,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 0
+      },
+      "path": "fa_seq256_bm64_bn128_s0/artifact.json"
+    },
+    {
+      "name": "fa_seq512_bm64_bn128_s2",
+      "seq_len": 512,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq512_bm64_bn128_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq512_bm64_bn64_s2",
+      "seq_len": 512,
+      "config": {
+        "block_M": 64,
+        "block_N": 64,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq512_bm64_bn64_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq512_bm64_bn128_s0",
+      "seq_len": 512,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 0
+      },
+      "path": "fa_seq512_bm64_bn128_s0/artifact.json"
+    },
+    {
+      "name": "fa_seq1024_bm64_bn128_s2",
+      "seq_len": 1024,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq1024_bm64_bn128_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq1024_bm64_bn64_s2",
+      "seq_len": 1024,
+      "config": {
+        "block_M": 64,
+        "block_N": 64,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq1024_bm64_bn64_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq1024_bm64_bn128_s0",
+      "seq_len": 1024,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 0
+      },
+      "path": "fa_seq1024_bm64_bn128_s0/artifact.json"
+    },
+    {
+      "name": "fa_seq2048_bm64_bn128_s2",
+      "seq_len": 2048,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq2048_bm64_bn128_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq2048_bm64_bn64_s2",
+      "seq_len": 2048,
+      "config": {
+        "block_M": 64,
+        "block_N": 64,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq2048_bm64_bn64_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq2048_bm64_bn128_s0",
+      "seq_len": 2048,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 0
+      },
+      "path": "fa_seq2048_bm64_bn128_s0/artifact.json"
+    },
+    {
+      "name": "fa_seq4096_bm64_bn128_s2",
+      "seq_len": 4096,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq4096_bm64_bn128_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq4096_bm64_bn64_s2",
+      "seq_len": 4096,
+      "config": {
+        "block_M": 64,
+        "block_N": 64,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq4096_bm64_bn64_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq4096_bm64_bn128_s0",
+      "seq_len": 4096,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 0
+      },
+      "path": "fa_seq4096_bm64_bn128_s0/artifact.json"
+    },
+    {
+      "name": "fa_seq8192_bm64_bn128_s2",
+      "seq_len": 8192,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq8192_bm64_bn128_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq8192_bm64_bn64_s2",
+      "seq_len": 8192,
+      "config": {
+        "block_M": 64,
+        "block_N": 64,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq8192_bm64_bn64_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq8192_bm64_bn128_s0",
+      "seq_len": 8192,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 0
+      },
+      "path": "fa_seq8192_bm64_bn128_s0/artifact.json"
+    },
+    {
+      "name": "fa_seq16384_bm64_bn128_s2",
+      "seq_len": 16384,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq16384_bm64_bn128_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq16384_bm64_bn64_s2",
+      "seq_len": 16384,
+      "config": {
+        "block_M": 64,
+        "block_N": 64,
+        "fa_num_stages": 2
+      },
+      "path": "fa_seq16384_bm64_bn64_s2/artifact.json"
+    },
+    {
+      "name": "fa_seq16384_bm64_bn128_s0",
+      "seq_len": 16384,
+      "config": {
+        "block_M": 64,
+        "block_N": 128,
+        "fa_num_stages": 0
+      },
+      "path": "fa_seq16384_bm64_bn128_s0/artifact.json"
+    }
+  ]
+}
